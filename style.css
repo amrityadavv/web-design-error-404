@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@800&display=swap');
+header {
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0px;
+    font-family: 'Inconsolata', monospace;
+    color: #333333
+}
+
+img {
+    position: absolute;
+    width: 539px;
+    height: 447px;
+}
+
+.container {
+    margin-top: 50px;
+    margin-left: 150px;
+    padding: 50px;
+    text-align: left;
+    font-weight: 700px;
+    font-size: 24px;
+    overflow: visible;
+}
+
+.text {
+    padding-left: 360px;
+    padding-right: 130px;
+}
+
+h1 {
+    font-family: 'Inconsolata', monospace;
+    font-size: 40px;
+    word-spacing: 5px;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+p {
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Space Mono', monospace;
+    font-size: small;
+    word-spacing: 10px;
+    padding-left: 50px;
+    padding-right: 200px;
+}
+
+.button {
+    padding: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+    color: #f5f4f4;
+    background-color: #333333;
+}
+
+footer {
+    position: absolute;
+    text-align: center;
+    font-size: 500;
+    bottom: 0;
+    margin-left: 450px;
+}
+
+@media screen and (max-width: 680px) {
+    header {
+        text-align: center;
+        font-weight: 100;
+        margin: 0px;
+        font-size: 18px;
+    }
+    img {
+        max-width: 80%;
+        height: 223px;
+        right: 18px;
+        left: 20px;
+        top: 11px;
+        margin-top: 45px;
+    }
+    .container {
+        width: fit-content;
+        padding: 0;
+        margin-top: 229px;
+        margin-left: 0;
+        text-align: left;
+    }
+    .text {
+        margin: 0;
+        padding: 0;
+    }
+    h1 {
+        font-size: 35px;
+        word-spacing: 0px;
+        padding-left: 56px;
+        padding-right: 23px;
+        margin-bottom: 5px;
+    }
+    p {
+        margin: 0, 0, 0, 5px;
+        padding-right: 0;
+    }
+    .button {
+        margin-top: 5px;
+        margin-left: 57px;
+        margin-bottom: 100px;
+    }
+    footer {
+        position: relative;
+        font-size: 10px;
+        margin-left: 0;
+        padding-top: 50px;
+        bottom: 0;
+    }
+}
